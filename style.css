@@ -130,9 +130,7 @@ h1
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   width: 100%;
-  padding-bottom: 2vh;
-  padding-top: 2vh;
-  text-decoration: underline;
+  padding: 3rem 3rem 1rem 3rem;
 }
 .intro
 {
@@ -141,7 +139,7 @@ h1
   padding-left: 10%;
   padding-right:0;
   font-family: 'Montserrat', sans-serif;
-    line-height: 2;
+  line-height: 2;
 }
 .intro_photo
 {
@@ -152,13 +150,10 @@ padding-right: auto;
 max-width: 50%;
 max-height: 50%;
 }
-.info_body
-{
-
-}
 .blank
 {
   height:60%
+
 }
 .grayoverlay_body
 {
@@ -202,4 +197,25 @@ padding-top: 10vh;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 2rem;
+}
+
+/*
+Contact me
+*/
+.Contact_me
+{
+font-family: 'Montserrat', sans-serif;
+}
+
+.icon
+{
+  padding-top: 1rem;
+}
+.contacts_info
+{
+padding-left: 1rem;
+}
+
+footer{
+  text-align: center;
 }

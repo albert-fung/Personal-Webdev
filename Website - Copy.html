@@ -11,6 +11,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <!--Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+        <!-- Contact me icons -->
+        <link rel="stylesheet" href="bootstrap-social.css">
+        <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
         <!--Slick CSS and JS -->
         <link rel="stylesheet" href="slick/slick.css">
         <link rel="stylesheet" href="slick/slick-theme.css">
@@ -24,15 +27,15 @@
   <body>
 
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" >&times;</a>
-
-      <a href="#">About</a>
-      <a href="#">Services</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" >&times;</a>
+      <a href="#Frontpage">Home</a>
+      <a href=".intro">Intro</a>
+      <a href="#">Skills</a>
       <a href="#">Clients</a>
       <a href="#">Contact</a>
     </div>
 
-<div class="parallax img_1 front_page">
+<div class="parallax img_1 front_page" id="Frontpage">
   <div class="grayoverlay">
     <span id="menu" class="glyphicon glyphicon-menu-hamburger" style="font-size:30px;" ></span>
     <div class="Border">
@@ -111,7 +114,36 @@
   <div class="grayoverlay_body"></div>
 </div>
 <div class="blank">
-  Contact me page 
+<div class="Contact_me ">
+  <h1 class="Subtitle">Contact me!</h1>
+
+  <div class="row">
+    <div class="col-sm-8">
+    </div>
+    <div class="col-sm-4">
+
+      <div class="icon">
+        <a href="mailto:albert.fung@live.com?Subject=Website%20Inquiry" class="btn btn-social-icon btn-tumblr">
+          <span class="glyphicon glyphicon-envelope"></span></a><span class="contacts_info">albert.fung@live.com</span>
+      </div>
+      <div class="icon">
+        <a class="btn btn-social-icon btn-vk">
+          <span class="glyphicon glyphicon-earphone"></span></a><span class="contacts_info">647 882 0263</span>
+      </div>
+      <div class="icon">
+        <a href="https://www.facebook.com/albert.fung.18"target="_blank" class="btn btn-social-icon btn-facebook">
+          <span class="fa fa-facebook"></span></a><span class="contacts_info">albert.fung.18</span>
+      </div>
+      <div class="icon">
+        <a href="https://github.com/albert-fung"target="_blank" class="btn btn-social-icon btn-github">
+          <span class="fa fa-github"></span></a><span class="contacts_info">albert-fung</span>
+      </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
 </div>
+<footer>© 2018 Albert Fung</footer>
   </body>
 </html>
