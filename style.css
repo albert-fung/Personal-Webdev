@@ -48,6 +48,10 @@ h1
 {
       background-image: url("photos/background-2.jpeg");
 }
+.img_3
+{
+  background-image: url("photos/background-3.jpg");
+}
 .front_page
 {
       min-height: 100%;
