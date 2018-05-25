@@ -172,7 +172,7 @@ Slick Slider for skills
 position: relative;
 left: 15%;
 width: 75%;
-padding-top: 10vh;
+padding-top: 5rem;
 }
 /*Change arrows*/
 .slick-prev:before,
@@ -217,8 +217,30 @@ padding-left: 1rem;
 }
 .Contact_me_form
 {
-padding-left: 2rem; 
+padding-left: 2rem;
 }
-footer{
-  text-align: center;
+
+textarea{
+  resize: none;
+}
+
+
+.footer{
+  position: absolute;
+  width: 100%;
+  color: white;
+  text-align: right;
+  background-color: #404040;
+  padding-top: 1.5vh;
+  padding-right: 5px;
+  padding-bottom: 1.5vh;
+}
+@media screen and (min-width: 720px) {
+    .icon{
+      padding-left: 40px;
+    }
+    .Contact_me_form
+    {
+      padding-left: 40px;
+    }
 }
