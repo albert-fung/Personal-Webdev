@@ -130,7 +130,7 @@ h1
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   width: 100%;
-  padding: 3rem 3rem 1rem 3rem;
+  padding: 1rem 3rem 1rem 3rem;
 }
 .intro
 {
@@ -205,42 +205,42 @@ Contact me
 .Contact_me
 {
 font-family: 'Montserrat', sans-serif;
+padding-bottom: 4rem;
+}
+.icon_group
+{
+  padding-top: 1rem;
 }
 
 .icon
 {
   padding-top: 1rem;
 }
-.contacts_info
+.contacts_info ,.Contact_me_form
 {
-padding-left: 1rem;
+  padding-left: 2rem;
 }
-.Contact_me_form
-{
-padding-left: 2rem;
+.Contact_me_form label{
+  color:#808080;
 }
 
 textarea{
   resize: none;
 }
 
-
 .footer{
-  position: absolute;
+  position: relative;
   width: 100%;
   color: white;
   text-align: right;
-  background-color: #404040;
+  background-color: #737373;
   padding-top: 1.5vh;
   padding-right: 5px;
   padding-bottom: 1.5vh;
 }
-@media screen and (min-width: 720px) {
-    .icon{
-      padding-left: 40px;
+@media screen and (max-width: 992px) {
+    .icon, .Contact_me_form{
+      padding-left: 80px;
     }
-    .Contact_me_form
-    {
-      padding-left: 40px;
-    }
+
 }

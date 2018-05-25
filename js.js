@@ -36,6 +36,13 @@ $(document).ready(function(){
     slidesToScroll:1
 
   });
+  //Smooth navbar animations
+  $("#mySidenav > a[href*='#']").click(function(event) { //selects all attributes containing '#'
+    $('html, body').animate({
+        scrollTop: $($(this).attr('href')).offset().top //selects the top offset of href and scrolls to it
+    }, 500);
+    event.preventDefault(); // prevent default event from occuring
+});
 
   //if navbar is open,will close if webpage is clicked outside navbar
   $(".parallax").mousedown(function(event)
