@@ -215,7 +215,10 @@ font-family: 'Montserrat', sans-serif;
 {
 padding-left: 1rem;
 }
-
+.Contact_me_form
+{
+padding-left: 2rem; 
+}
 footer{
   text-align: center;
 }
